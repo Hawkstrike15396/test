@@ -1,0 +1,21 @@
+project:
+  type: website
+
+website:
+  title: "My New Quarto Website"
+  navbar:
+    title: "My Site"
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "About"
+        href: about.qmd
+
+output-dir: _site
+
+publish:
+  quarto-pub:
+    type: quarto-pub
+    site: my-new-website
+  
+  
